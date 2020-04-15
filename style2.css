@@ -1,0 +1,116 @@
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(201, 241, 241, 0.411);
+
+}
+.nav figcaption{
+    color: rgb(233, 241, 238);
+    padding-left: -15px;
+}
+body{
+    background-image: url(50918845.jpg);
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+    
+
+    
+}
+button
+{
+    
+    height: 50px;
+    background-color: rgba(16, 31, 170, 0.644);
+    color: ghostwhite;
+    border-radius: 20%;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.contre
+{
+   
+   
+    width: 650px;
+    background-color: rgba(78, 73, 74, 0.178);
+    margin: auto;
+    padding: 50px;
+    margin-top: 100px;
+   
+   
+}
+.contre p
+{
+    margin: auto;
+
+}
+.contre h1 
+{
+   color: violet;
+  text-align: center;
+   
+}
+p label
+{
+    color: white;
+}
+p input 
+{
+    background-color: white;
+    height: 50px;
+    width: 300px;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    background-color: rgb(4, 25, 44);
+    width: 100%;
+    color: white;
+
+}
+footer a{
+    color: violet;
+}
+@media screen and (max-width:906px)
+{
+    .contre 
+    {
+        width: 400px;
+        margin-top: 50px;
+        padding: 20px;
+    }
+    .contre p 
+    {
+        text-align: center;
+    }
+    p input
+    {
+        height: 30px;
+    }
+}
+@media screen and (max-width:940px)
+{
+    .contre
+    {
+        width: 300px;
+    }
+    .contre h1 
+    {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:363px)
+{
+    .contre
+    {
+        width: 250px;
+    }
+    p input
+    {
+       width: 200px;
+    }
+}
